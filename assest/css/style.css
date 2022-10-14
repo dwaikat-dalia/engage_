@@ -1,0 +1,2290 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+/*global*/
+body{
+
+
+    font-family: 'Open Sans', sans-serif;
+
+    height: 5350px;
+   
+}
+*{
+
+    margin:0px;
+    padding: 0px;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    
+
+}
+/*start home section*/
+.overlay{
+ 
+background-color:rgb(00, 00, 00,0.1);
+position: absolute;
+top: 0px;
+left: 0px;
+right: 0px;
+bottom: 0px;
+
+}
+.home{
+    background-image: url('../img/home1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+   
+    text-align: center;
+    /*overflow: hidden;*/
+    height: 100vh;
+
+}
+.home .first-header{
+    
+    margin-top: 64px;
+  margin-bottom: 10px;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.92);
+    font-weight: 400;
+}
+.home .second-header{
+
+    margin-bottom:20px;
+    font-size: 72px;
+    color: white;
+    font-weight: 400;
+}
+.home .home-p{
+    margin-bottom: 40px;
+   color: rgba(255, 255, 255, 0.92);
+   font-size: 24px;
+   
+}
+
+.btn{
+
+    border:2px solid white;
+    padding: 17px 30px;
+    font-size: 15px;
+    font-weight: 750;
+    border-radius: 6%;
+   margin-bottom: 20px;
+
+}
+.learn-btn{
+
+    border-color: white; 
+    background-color: transparent;
+    color: white;
+    margin-right: 10px;
+
+}
+.learn-btn:hover{
+
+    background-color: white;
+    color: black;
+    cursor: pointer;
+
+}
+.about-btn{
+    
+    border-color:white;
+    background-color: white;
+   
+}
+
+.about-btn:hover{
+    cursor: pointer;
+    border-color:  rgb(255, 255, 255,0.1);
+    color:rgba(0, 0, 0, 0.70);
+    background-color: rgb(255, 255, 255,0.8);
+}
+
+.navbar{
+    
+   margin-top: 30px;
+    height: 50px;
+    background-color: transparent;
+    position: sticky;
+    
+    left:0px;
+    top:0px
+    
+  
+}
+
+
+.home .navbar .logo {
+
+    
+    float:left;
+    width: 50%;
+    text-align: left;
+
+}
+.home .navbar .logo .logo-img{
+
+   width: 22%;
+   margin-left: 70px;
+    
+
+}
+.home .overlay .goTotop{
+background-color: rgba(84, 79, 79, 0.543);
+
+position: fixed;
+right: 0px;
+bottom: 0px;
+
+
+border-color: rgba(215, 215, 215, 0.788);
+border-radius: 50%;
+border-width: 2px;
+border-style: solid;
+padding-left: 5px;
+padding-right: 5px;
+padding-top: 6px;
+padding-bottom: 6px;
+margin-right: 15px;
+margin-bottom:10px;
+
+
+
+
+
+}
+.home .overlay .goTotop a{
+    
+   padding:0px 6px;
+   
+}
+.home .overlay .goTotop a i{
+   
+    color: white;
+   
+    }
+.home .navbar .nav{
+  
+    float:left;
+    width:45%;
+   margin-top: 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+   
+}
+.home .navbar .nav ul li {
+   list-style-type: none;
+   display: inline-block;
+   margin-left: 20px;
+    
+    }
+.home .navbar .nav ul li a{
+
+text-decoration: none;
+color: white;
+font-size: 17px;
+font-weight: 550;
+
+}
+/*end home section*/
+/*start arch section*/
+.Architecture{
+    padding-top: 10px;
+    height: 310px;
+   
+    text-align: center;
+    padding-bottom: 15px;
+}
+.Architecture .container h2{
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-size: 32px;
+    font-weight: 400;
+    color:  rgb(48, 48, 48);
+}
+.Architecture .container p{
+
+    width: 70%;
+    text-align: center;
+    margin:auto;
+    color: rgb(96, 96, 96);
+    font-size: 18.15px;
+    line-height: 35px;
+}
+/*end arch section*/
+
+
+/*start Aliquam section*/
+.Aliquam .container .alq-img{
+
+float: left;
+width: 50%;
+padding-right: 40px;
+margin-top:10px;
+margin-left: 10px;
+
+
+}
+.Aliquam .container .alq-img img{
+    width: 90%;
+    height:90%;
+}
+.Aliquam .container .alq-content{
+  
+float: left;
+
+width: 45%;
+text-align: left;
+margin-top: 100px;
+}
+.Aliquam .container .alq-content h2{
+    color:#303030;
+    font-size: 32px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+.Aliquam .container .alq-content  .text-p-al{
+   font-size: 15px;
+   color:rgb(104, 104, 104);
+   line-height: 30px;
+   padding-bottom: 30px;
+
+}
+
+
+ .Aliquam .container .alq-content ul li{
+   
+    overflow: hidden;
+  }
+  .Aliquam .container .alq-content ul li i {
+ 
+    float: left;
+    width: 6%;
+    text-align: left;
+    color: rgb(104, 104, 104);
+    font-size: 18px;
+    font-weight: bolder;
+    margin-top: 10px;
+    
+  }
+  .Aliquam .container .alq-content .text-p-al{
+   width: 100%;
+    text-align: left;
+  }
+  .Aliquam .container .alq-content ul li p {
+    
+    float: left;
+    width: 90%;
+    font-size: 15px;
+    
+    color:rgb(104, 104, 104);
+    line-height: 40px;
+   
+  }
+.Aliquam .container{
+    overflow: hidden;
+    
+}
+
+/*end  Aliquam section*/
+/*start visual  cevtion*/
+.visual{
+  
+    margin-top: 15px;
+    padding-top:100px ;
+    
+}
+.visual .container{
+    overflow: hidden;
+}
+.visual .container .visual-containt{
+float: left;
+width: 50%;
+
+}
+.visual .container .visual-img{
+float: left;
+width: 46%;
+
+
+}
+.visual .container .visual-img img{
+    width: 100%;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.visual .container .visual-containt .visual-header{
+    font-size: 32px;
+    color: rgb(48, 48, 48);
+    font-weight: 400;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+.visual .container .visual-containt .visual-paragraph{
+font-size: 15px;
+color: rgb(104, 104, 104);
+line-height: 30px;
+margin-right: 20px;
+margin-bottom: 30px;
+}
+
+.visual .container .visual-containt ul{
+
+}
+.visual .container .visual-containt ul li{
+   overflow: hidden;
+    
+}
+.visual .container .visual-containt .vi-icon{
+float: left;
+font-size: 18px;
+color: rgb(104, 104, 104);
+
+padding: 2px;
+margin-top:8px;
+padding-right:15px;
+
+
+}
+.visual .container .visual-containt span .vi-par{
+    float: left;
+    font-size: 15px;
+    color: rgb(104, 104, 104);
+    line-height: 40px;
+    font-weight: 500;
+    
+    } 
+/*end visual section*/
+/*start number section*/
+.number {
+
+
+    background-image: url('../img/archi16.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.number .over{
+    
+    margin-top: 100px;
+    overflow: hidden;
+    padding-top: 100px;
+    padding-bottom: 130px;
+    padding-left: 46px;
+    
+   
+   
+    
+}
+
+.number .over .item-number{
+    width: 23%;
+    float: left;
+    margin-left: 10px;
+    text-align: center;
+   height: 100px;
+   padding-bottom: 20px;
+   line-height: 65px;
+    
+    
+}
+.number .over  .item-number .icon-num{
+font-size: 34px;
+color:rgba(255, 255, 255, 0.8);
+
+ }
+ .number  .over .item-number  .header-two{
+
+    font-size: 52px;
+    font-weight: 400;
+    color:rgb(255, 255, 255);
+ }
+
+ .number .over .item-number .num-par{
+
+    font-size: 20px;
+    color:rgba(255, 255, 255, 0.8)
+ }
+ .over{
+      
+background-color:rgb(00, 00, 00,0.1);
+   
+    position: relative;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+/*end number section*/
+/*start serve section*/
+.serve{
+
+overflow: hidden;
+margin-top: 80px;
+
+}
+
+.serve .serve-contient{
+float: left;
+width: 50%;
+margin-top: 110px;
+}
+.serve .container .serve-img{
+    text-align: center;
+}
+.serve .container .serve-contient .header-serve{
+
+font-size: 24px;
+font-weight: 400;
+margin-bottom: 20px;
+color:rgb(48, 48, 48);
+
+}
+.serve .container .serve-contient .para-serve{
+
+    line-height: 35px;
+    font-size: 18.15px;
+    color:rgb(96, 96, 96);
+}
+
+.serve .serve-img{
+    float: left;
+    width: 50%;
+}
+/*end serve section */
+/*start Creativity section*/
+
+.Creativity .container{
+
+overflow: hidden;
+padding-top: 60px;
+padding-bottom: 80px;
+}
+.Creativity .container .creative-items{
+float: left;
+width: 25%;
+overflow: hidden;
+
+
+}
+.Creativity .container .creative-items .i-item{
+    font-size: 28px;
+    color: rgb(104, 104, 104);
+   
+
+float: left;
+width:10%;
+margin-right: 20px;
+}
+.Creativity .container .creative-items .item-cont{
+
+float: left;
+width:80%;
+
+
+}
+.Creativity .container .creative-items .item-cont .header-three {
+font-size: 17px;
+color: rgb(48, 48, 48);
+font-weight: 500;
+margin-bottom: 10px;
+}
+.Creativity .container .creative-items .item-cont .par-creative{
+line-height: 30px;
+
+color:rgb(136, 136, 136);
+
+}
+/*end Creativity section*/
+/*start  Testimonials section*/
+.Testimonials{
+   
+    height: 100vh;
+    background-image: url('../img/archi-12.jpg');
+    background-size: cover;
+    
+}
+.Testimonials .over{
+      
+background-color:rgb(00, 00, 00,0.5);
+    position: relative;
+    top:0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+   height: 100%;
+}
+.Testimonials .over .sec {
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 80px;
+   
+}
+.Testimonials  .over .sec .header{
+font-size: 30px;
+font-weight: 400;
+color: rgb(255, 255, 255);
+padding-bottom: 20px;
+
+}
+.Testimonials .over .sec .par{
+    font-size: 17px;
+    color:rgba(255, 255, 255);
+    padding-bottom: 60px;
+    }
+ .Testimonials .over .elem{
+
+overflow: hidden;
+    }
+    .Testimonials .over .elem  .element {
+
+float: left;
+width: 45%;
+margin: auto;
+margin-right: 20px;
+margin-left: 40px;
+
+
+    }   
+    .Testimonials .over .elem  .element  .pargra{
+
+        background-color:rgba(255, 255, 255, 0.1);
+        line-height: 30px;
+        padding: 35px 30px;
+        border-radius: 2%;
+        font-size: 15px;
+        color:rgb(255, 255, 255);
+        height: 80px;
+
+       
+    }
+    .Testimonials .over  .elem  .element  .te{
+        padding-top: 20px;
+        margin-left:25px;
+      
+        color:rgb(255, 255, 255);
+        font-size: 15px;
+        list-style: 10px
+    }
+    .Testimonials .over .elem  .element  .te span{
+      
+        color:rgb(255, 255, 255);
+        font-size: 15px;
+        opacity: 0.7;
+
+    }
+/*end Testimonials section*/
+/*start map section*/
+.map{
+    padding:100px 0px;
+    background-color: rgb(248, 248, 248)    ;
+    color:rgb(104, 104, 104);
+}
+.map .container{
+  
+overflow: hidden;
+
+
+}
+.map .container .map-containt{
+
+float: left;
+width: 45%;
+
+}
+
+.map .container .map-containt ul li{
+
+overflow: hidden;
+
+}
+.map .container .map-containt ul li .itemiicon{
+
+    float: left;
+    width:10%;
+    font-size: 18px;
+    line-height: 35px;
+   background-color: transparent;
+   
+    text-align: center;
+   border-radius: 50%;
+   
+    margin-top: 10px;
+    border-style: solid;
+    border-color:rgba(0, 0, 0, 0.15);
+
+   width: 35px;
+    height: 35px;
+    padding: 0px;
+    border-width: 1px;
+
+}
+.map .container .map-containt ul li .map-par{
+float: left;
+width:90%;
+line-height: 60px;
+margin-left: 15px;
+
+
+}
+.map .container .map-containt .map-header{
+font-size: 24px;
+color:#303030;
+font-weight: 400;
+margin-top: 30px;
+margin-bottom:25px;
+}
+.map .container .map-containt .map-paragraph{
+font-size: 15px;
+color:rgb(104, 104, 104);
+line-height: 30px;
+margin-bottom: 30px;
+
+}
+.map .container .map-containt .map-par2{
+    font-size: 15px;
+    color:rgb(104, 104, 104);
+    padding-bottom: 25px;
+   
+    
+    }
+   
+    hr{
+        border:solid ;
+       border-width: 0.1px;
+       border-top: 0px;
+       
+       border-radius: 0%;
+        border-color: rgba(63,63,63,0.4);
+    }
+.map .container .map-img{
+
+    float: left;
+    width: 45%;
+    height: 500px;
+    margin-left: 110px;
+   
+
+    }
+.map .container .map-img iframe{
+width:100%;
+height: 100%;
+    }
+/*end map section*/
+/*start last section */
+.first-part{
+    background-color: rgb(38, 38, 38);
+    padding-bottom: 40px;
+}
+.last .first-part .container{
+overflow: hidden;
+
+}
+.last .first-part .container .item{
+    padding-top: 70px;
+float: left;
+width: 30%;
+
+}
+.last .first-part .container .item h3{
+   color:white;
+   font-size: 20px;
+   font-weight: 400;
+   padding-bottom: 25px;
+}
+.item-3,.item-2{
+    margin-left: 50px;
+}
+.last .first-part .container .item .par11{
+    color:rgb(121, 121, 121);
+    font-size: 16px;
+    line-height: 30px;
+    padding-bottom: 25px;
+    
+ }
+ .last .first-part .container .item .par22{
+    color:rgb(121, 121, 121);
+    font-size: 16px;
+    line-height: 30px;
+    padding-bottom: 25px;
+    
+ }
+ .last .first-part .container .item .ul1 {
+color:rgb(121, 121, 121);
+ }
+ .last .first-part .container .item .ul12 {
+    color: rgb(169, 169, 169);
+  
+     }
+
+     .last .first-part .container .item .ul12 li {
+        overflow: hidden;
+    list-style: none;
+    line-height: 40px;
+         }
+         .last .first-part .container .item .ul12 li i{
+        
+            line-height:60px;
+            float:left;
+             width: 10%;
+                 }
+                 .last .first-part .container .item .ul12 li p{
+                    line-height:60px;
+                    float:left;
+                     width: 90%;
+                         }
+                         .last .first-part .container .item .ul12 li p span{ 
+                            line-height:30px;
+                            float:left;
+                             width: 90%;
+                             color:#636363;
+                             margin-top: 15px;
+                                 }
+                         
+    
+     .last .first-part .container .item .ul1 li{
+  
+    list-style: none;
+    line-height: 40px;
+     }
+     .last .first-part .container .item .ul1 li hr {
+        font-weight: 400;
+
+         }
+.last .second{
+padding-top: 50px;
+text-align: center;
+height: 140px;
+background-color: rgba(30, 30, 30, 0.992);
+
+}
+.last .second h4{
+font-size: 16px;
+color:rgb(119, 119, 119);
+font-weight: 400;
+}
+.last .second ul {
+    padding-top:30px;
+   overflow: hidden;
+   margin-left: 576px;
+}
+.last .second ul li {
+    list-style: none;
+   float: left;
+   width: 6%;
+
+   
+
+    
+}
+.last .second ul li .vio {
+   font-size: 20px;
+   color:rgba(65, 64, 64, 0.866);
+   width:20px;
+   height: 20px;
+border-radius: 50%;
+   
+   background-color: rgb(30, 30, 30);
+   padding: 10px ;
+   
+  
+   
+
+    
+}
+
+.last .second ul li  .fa-facebook-f:hover{
+    background-color:#4267B2 ;
+    color:rgb(255, 255, 255);
+ 
+ }
+ .last .second ul li .fa-google:hover{
+    background-color:#DB4437 ;
+    color:rgb(255, 255, 255);
+ 
+ }
+ .last .second ul li  .fa-tumblr:hover{
+    background-color:#36465d ;
+    color:rgb(255, 255, 255);
+ 
+ }
+ .last .second ul li  .fa-twitter:hover{
+    background-color:#1DA1F2 ;
+    color:rgb(255, 255, 255);
+ 
+ }
+
+/*end last section*/
+/*****************************************************************************************/
+/* Small devices 0 and 370px*/
+@media  (max-width: 370px) {
+
+/*start home section*/
+
+    .home{
+        
+       background-position:51%;
+    
+    }
+    .home .first-header{
+        
+        margin-top: 150px;
+      margin-bottom: 20px;
+        font-size:22px;
+        color: rgba(255, 255, 255, 0.92);
+        font-weight: 400;
+    }
+    .home .second-header{
+    
+        margin-bottom:30px;
+        font-size:34px;
+        color: white;
+        font-weight: 400;
+    }
+    .home .home-p{
+        margin-bottom: 45.5px;
+       color: rgba(255, 255, 255, 0.92);
+       font-size: 15px;
+       width:90%;
+      
+       margin-left: 20px;
+    }
+
+    .navbar{
+        
+       margin-top: 10px;
+        height: 50px;
+      
+        position: static;
+    
+        top:0px;
+        text-align: center;
+        
+      
+    }
+
+    .home .navbar .logo {/*done*/
+    
+        
+      margin-left:20px;
+      padding-bottom: 5px;
+    
+    }
+    .home .navbar .logo .logo-img{/*done*/
+    
+       width: 100%;
+    
+        
+    
+    }
+   
+    .home .overlay .goTotop a i{
+       
+        color: white;
+       
+        }
+    .home .navbar .nav{
+      
+        width:80%;
+    
+      margin-left:30px;
+       
+    }
+    
+    .home .navbar .nav ul li { /*done*/
+       list-style-type: none;
+       display: inline;
+       
+    
+       
+        }
+    .home .navbar .nav ul li a{/*done*/
+    
+    text-decoration: none;
+    color: white;
+    font-size:20px;
+    font-weight: 500;
+    
+    }
+    /*end home section*/
+    /*start arch section*/
+.Architecture{
+    padding-top: 10px;
+    height: 460px;
+  
+    text-align: center;
+    padding-bottom: 15px;
+}
+.Architecture .container h2{
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    
+    color:  #303030;
+}
+.Architecture .container p{
+    
+    width: 100%;
+    text-align: center;
+    margin:auto;
+    color: #303030;
+    font-size:1.1em;
+    line-height: 1.86em;
+}
+/*end arch section*/
+
+/*start Aliquam section*/
+.Aliquam .container .alq-img{
+
+    float: left;
+    width: 100%;
+    padding-right: 40px;
+    margin-top:10px;
+    margin-left: 10px;
+    
+    
+    }
+    .Aliquam .container .alq-img img{
+        width: 100%;
+        height:100%;
+    }
+    .Aliquam .container .alq-content{
+      
+    float: left;
+    
+    width: 100%;
+    text-align: left;
+    margin-top: 90px;
+    }
+    .Aliquam .container .alq-content h2{
+        color:#303030;
+        font-size: 1.5rem;
+        font-weight: 400;
+        padding-bottom: 30px;
+    }
+    .Aliquam .container .alq-content  .text-p-al{
+       font-size: 15px;
+       color:#303030;
+       line-height: 1.86em;
+    
+    }
+    
+    /*end  Aliquam section*/
+
+    /*start visual  cevtion*/
+.visual{
+  
+    
+    padding-top:50px ;
+    
+}
+
+.visual .container .visual-containt{
+float: left;
+width: 100%;
+
+}
+.visual .container .visual-img{
+
+width: 100%;
+
+
+}
+.visual .container .visual-img img{
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.visual .container .visual-containt .visual-header{
+    font-size: 32px;
+    color: rgb(48, 48, 48);
+    font-weight: 400;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+.visual .container .visual-containt .vi-icon{
+
+font-size: 18px;
+color: #303030;
+
+padding: 2px;
+margin-top:8px;
+
+display: inline-block;
+
+
+}
+.visual .container .visual-containt span .vi-par{
+
+ display: inline-block;
+    font-size: 15px;
+    color: #303030;
+    line-height: 35px;
+    width:90%;
+    font-weight: 500;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    
+    } 
+/*end visual section*/
+/*start number section*/
+.number .container{
+    width: 100%;
+}
+.number {
+
+    
+    background-image: url('../img/archi16.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50%;
+}
+.number .over{
+    
+    margin-top:40px;
+    overflow: hidden;
+    padding-top: 100px;
+    padding-bottom: 130px;
+ 
+    padding-right: 50px;
+   
+   
+    
+}
+
+.number .over .item-number{
+    float: left;
+    width: 100%;
+    margin-left: 0px;
+    text-align: center;
+   height: 100px;
+   padding-bottom:90px;
+   line-height: 65px;
+   margin-top: 30px;
+
+    
+    
+}
+.number .over  .item-number .icon-num{
+font-size: 34px;
+color:rgba(255, 255, 255, 0.8);
+
+
+ }
+ .number  .over .item-number  .header-two{
+
+    font-size: 52px;
+    font-weight: 400;
+    color:rgb(255, 255, 255);
+   
+ }
+
+ .number .over .item-number .num-par{
+
+padding-bottom:9px;
+    font-size: 20px;
+    color:rgba(255, 255, 255, 0.8)
+ }
+ .over{
+      
+background-color:rgb(00, 00, 00,0.1);
+   
+    position: relative;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+/*end number section*/
+/*start serve section*/
+.serve{
+
+    overflow: hidden;
+    margin-top:0px;
+    margin-bottom: 50px;
+    
+    }
+    
+    .serve .serve-contient{
+    float: left;
+    width: 100%;
+    margin-top: 90px;
+    }
+    .serve .container .serve-img{
+        text-align: center;
+        width: 100%;
+    }
+    .serve .container .serve-img img{   
+        width: 100%;
+        height: 100%;
+    }
+    .serve .container .serve-contient .header-serve{
+    
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color:#303030;
+    width: 100%;
+    
+    }
+    .serve .container .serve-contient .para-serve{
+    
+        line-height: 35px;
+        font-size: 1.1em;
+        color:#303030;
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    
+  
+    /*end serve section */
+
+/*start Creativity section*/
+    .Creativity .container .creative-items{
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 40px;
+    
+    }
+    /*end Creativity section*/
+    /*start  Testimonials section*/
+.Testimonials{
+   
+    height: 100vh;
+    background-image: url('../img/archi-12.jpg');
+    background-size: cover;
+    background-position: 50%;
+    overflow: hidden;
+}
+.Testimonials .over{
+      
+background-color:rgb(00, 00, 00,0.5);
+    position: relative;
+    top:0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+   height: 100%;
+}
+.Testimonials .over .sec {
+  
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 90px;
+   
+}
+.Testimonials  .over .sec .header{
+font-size: 30px;
+font-weight: 400;
+color: rgb(255, 255, 255);
+padding-bottom: 20px;
+
+
+}
+.Testimonials .over .sec .par{
+    font-size: 17px;
+    color:rgba(255, 255, 255);
+    padding-bottom: 60px;
+    }
+ .Testimonials .over .elem{
+
+overflow: hidden;
+padding-bottom: 40px;
+    }
+   
+    .Testimonials .over .elem  .element {
+
+float: left;
+width: 90%;
+margin: auto;
+margin-left: 18px;
+
+    }   
+    .Testimonials .over .elem  .element  .pargra{
+
+        background-color:rgba(255, 255, 255, 0.1);
+        line-height: 30px;
+        padding: 35px 30px;
+        border-radius: 2.4%;
+        font-size: 15px;
+        color:rgb(255, 255, 255);
+        height:130px;
+        margin-top: 20px;
+
+       
+    }
+    .Testimonials .over  .elem  .element  .te{
+        padding-top: 20px;
+        margin-left:25px;
+      
+        color:rgb(255, 255, 255);
+        font-size: 15px;
+        list-style: 10px;
+       
+    }
+  
+    .e2{
+        display: none;
+    }
+/*end Testimonials section*/
+
+/*start map section*/
+.map{
+    padding:100px 0px;
+    background-color: rgb(248, 248, 248)    ;
+    color:rgb(104, 104, 104);
+}
+.map .container{
+  
+
+
+}
+.map .container .map-containt{
+
+
+width: 100%;
+padding-bottom: 30px;
+}
+
+.map .container .map-containt ul li{
+
+}
+.map .container .map-containt ul li .itemiicon{
+
+    
+    width:10%;
+    font-size: 18px;
+    line-height: 37px;
+   background-color: transparent;
+   
+    text-align: center;
+   border-radius: 50%;
+   
+    margin-top: 13px;
+    border-style: solid;
+    border-color:rgba(0, 0, 0, 0.15);
+
+   width: 35px;
+    height: 35px;
+    padding: 0px;
+    border-width: 1px;
+
+}
+.map .container .map-containt ul li .map-par{
+
+width:80%;
+line-height: 27px;
+
+
+margin-bottom: 22px;
+padding-top: 14px;
+
+}
+.map .container .map-containt .map-header{
+font-size: 24px;
+color:#303030;
+font-weight: 400;
+margin-top: 30px;
+margin-bottom:25px;
+}
+.map .container .map-containt .map-paragraph{
+font-size: 15px;
+color:rgb(104, 104, 104);
+line-height: 30px;
+margin-bottom: 30px;
+
+}
+
+.map .container .map-containt .map-par2{
+    font-size: 15px;
+    color:rgb(104, 104, 104);
+    padding-bottom: 0px;
+   
+    
+    }
+   
+    hr{
+        border:solid ;
+       border-width: 0.1px;
+       border-top: 0px;
+       
+       border-radius: 0%;
+        border-color: rgba(63,63,63,0.4);
+    }
+.map .container .map-img{
+text-align: center;
+    width: 100%;
+    height:500px;
+   margin-left: 0px;
+ 
+   
+
+    }
+.map .container .map-img iframe{
+width:100%;
+height: 100%;
+    }
+    .overr{
+        padding: 0;
+        margin: 0;
+    }
+/*end map section*/
+/*start last section */
+.first-part{
+    background-color: rgb(38, 38, 38);
+    padding-bottom: 40px;
+}
+.last .first-part .container{
+overflow: hidden;
+
+}
+.last .first-part .container .item{
+    padding-top: 70px;
+float: left;
+width: 100%;
+
+}
+.last .first-part .container .item h3{
+   color:white;
+   font-size: 20px;
+   font-weight: 400;
+   padding-bottom: 25px;
+}
+.item-3,.item-2{
+    margin-left: 50px;
+}
+.last .first-part .container .item .par11{
+    color:rgb(121, 121, 121);
+    font-size: 16px;
+    line-height: 30px;
+    padding-bottom: 25px;
+    
+ }
+ .last .first-part .container .item .par22{
+    color:rgb(121, 121, 121);
+    font-size: 16px;
+    line-height: 30px;
+    padding-bottom: 25px;
+    
+ }
+ .last .first-part .container .item .ul1 {
+color:rgb(121, 121, 121);
+ }
+ .last .first-part .container .item .ul12 {
+    color: rgb(169, 169, 169);
+  
+     }
+
+     .last .first-part .container .item .ul12 li {
+        overflow: hidden;
+    list-style: none;
+    line-height: 40px;
+         }
+         .last .first-part .container .item .ul12 li i{
+        
+            line-height:60px;
+            float:left;
+             width: 10%;
+                 }
+                 .last .first-part .container .item .ul12 li p{
+                    line-height:60px;
+                    float:left;
+                     width: 90%;
+                         }
+                         .last .first-part .container .item .ul12 li p span{ 
+                            line-height:30px;
+                            float:left;
+                             width: 90%;
+                             color:#636363;
+                             margin-top: 15px;
+                                 }
+                         
+    
+     .last .first-part .container .item .ul1 li{
+  
+    list-style: none;
+    line-height: 40px;
+     }
+     .last .first-part .container .item .ul1 li hr {
+        font-weight: 400;
+
+         }
+.last .second{
+padding-top: 50px;
+text-align: center;
+height: 140px;
+background-color: rgba(30, 30, 30, 0.992);
+
+}
+.last .second h4{
+font-size: 16px;
+color:rgb(119, 119, 119);
+font-weight: 400;
+}
+.last .second ul {
+    padding-top:30px;
+   overflow: hidden;
+   margin-left:60px;
+  
+}
+.last .second ul li {
+    list-style: none;
+   float: left;
+   width: 2%;
+    margin-left: 40px;
+   
+
+    
+}
+.last .second ul li .vio {
+   font-size: 20px;
+   color:rgba(65, 64, 64, 0.866);
+   width:20px;
+   height: 20px;
+border-radius: 50%;
+   
+   background-color: rgb(30, 30, 30);
+   padding: 10px ;
+   
+  
+   
+
+    
+}
+
+.last .second ul li  .fa-facebook-f:hover{
+    background-color:#4267B2 ;
+    color:rgb(255, 255, 255);
+ 
+ }
+ .last .second ul li .fa-google:hover{
+    background-color:#DB4437 ;
+    color:rgb(255, 255, 255);
+ 
+ }
+ .last .second ul li  .fa-tumblr:hover{
+    background-color:#36465d ;
+    color:rgb(255, 255, 255);
+ 
+ }
+ .last .second ul li  .fa-twitter:hover{
+    background-color:#1DA1F2 ;
+    color:rgb(255, 255, 255);
+ 
+ }
+}
+/*end last section*/
+/******************************************************************************************/
+/*370-720*/
+@media (min-width: 371px) and (max-width: 900px) {
+
+
+/*start home section*/
+
+.home{
+        
+    background-position:51%;
+ 
+ }
+ .home .first-header{
+     
+     margin-top: 150px;
+   margin-bottom: 20px;
+     font-size:22px;
+     color: rgba(255, 255, 255, 0.92);
+     font-weight: 400;
+ }
+ .home .second-header{
+ 
+     margin-bottom:30px;
+     font-size:34px;
+     color: white;
+     font-weight: 400;
+ }
+ .home .home-p{
+     margin-bottom: 45.5px;
+    color: rgba(255, 255, 255, 0.92);
+    font-size: 15px;
+    width:90%;
+   
+    margin-left: 20px;
+ }
+
+ .navbar{
+     
+    margin-top: 10px;
+     height: 50px;
+   
+     position: static;
+ 
+     top:0px;
+     text-align: center;
+     
+   
+ }
+
+ .home .navbar .logo {/*done*/
+ 
+     
+   margin-left:20%;
+   padding-bottom: 5px;
+ 
+ }
+ .home .navbar .logo .logo-img{/*done*/
+ 
+    width: 60%;
+
+ 
+     
+ 
+ }
+
+ .home .overlay .goTotop a i{
+    
+     color: white;
+    
+     }
+ .home .navbar .nav{
+   
+     width:100%;
+ 
+    
+ }
+ 
+ .home .navbar .nav ul li { /*done*/
+    list-style-type: none;
+    display: inline;
+    
+ 
+    
+     }
+ .home .navbar .nav ul li a{/*done*/
+ 
+ text-decoration: none;
+ color: white;
+ font-size:20px;
+ font-weight: 500;
+ 
+ }
+ /*end home section*/
+   /*start arch section*/
+.Architecture{
+    
+    padding-top: 10px;
+    height: 380px;
+  
+    text-align: center;
+    padding-bottom: 5px;
+}
+.Architecture .container h2{
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    
+    color:  #303030;
+}
+.Architecture .container p{
+    
+    width: 100%;
+    text-align: center;
+    margin:auto;
+    color: #303030;
+    font-size:1.1em;
+    line-height: 1.86em;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+/*end arch section*/
+
+/*start Aliquam section*/
+.Aliquam .container .alq-img{
+
+    float: left;
+    width: 90%;
+    height: 90%;
+    padding-right: 40px;
+    margin-top:-20px;
+    margin-left: 60px;
+    
+    
+    }
+    .Aliquam .container .alq-img img{
+        width: 100%;
+        height:100%;
+    }
+    .Aliquam .container .alq-content{
+      
+    float: left;
+    
+    width: 100%;
+    text-align: left;
+    margin-top: 90px;
+    }
+    .Aliquam .container .alq-content h2{
+        color:#303030;
+        font-size: 1.5rem;
+        font-weight: 400;
+        padding-bottom: 30px;
+    }
+    .Aliquam .container .alq-content  .text-p-al{
+       font-size: 15px;
+       color:#303030;
+       line-height: 1.86em;
+    
+    }
+    
+    /*end  Aliquam section*/
+    /*start visual  cevtion*/
+.visual{
+  
+    
+    padding-top:50px ;
+    
+}
+
+.visual .container .visual-containt{
+float: left;
+width: 100%;
+
+}
+.visual .container .visual-img{
+
+width: 100%;
+
+
+}
+.visual .container .visual-img img{
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.visual .container .visual-containt .visual-header{
+    font-size: 32px;
+    color: rgb(48, 48, 48);
+    font-weight: 400;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+.visual .container .visual-containt .vi-icon{
+
+font-size: 18px;
+color: #303030;
+
+padding: 2px;
+margin-top:8px;
+
+display: inline-block;
+
+
+}
+.visual .container .visual-containt span .vi-par{
+
+ display: inline-block;
+    font-size: 15px;
+    color: #303030;
+    line-height: 35px;
+    width:90%;
+    font-weight: 500;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    
+    } 
+/*end visual section*/
+/*start number section*/
+.number .container{
+    width: 100%;
+}
+.number {
+
+    
+    background-image: url('../img/archi16.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50%;
+}
+.number .over{
+    
+    margin-top:40px;
+    overflow: hidden;
+    padding-top: 100px;
+    padding-bottom: 130px;
+ 
+    padding-right: 50px;
+   
+   
+    
+}
+
+.number .over .item-number{
+    float: left;
+    width: 100%;
+    margin-left: 0px;
+    text-align: center;
+   height: 100px;
+   padding-bottom:90px;
+   line-height: 65px;
+   margin-top: 30px;
+
+    
+    
+}
+.number .over  .item-number .icon-num{
+font-size: 34px;
+color:rgba(255, 255, 255, 0.8);
+
+
+ }
+ .number  .over .item-number  .header-two{
+
+    font-size: 52px;
+    font-weight: 400;
+    color:rgb(255, 255, 255);
+   
+ }
+
+ .number .over .item-number .num-par{
+
+padding-bottom:9px;
+    font-size: 20px;
+    color:rgba(255, 255, 255, 0.8)
+ }
+ .over{
+      
+background-color:rgb(00, 00, 00,0.1);
+   
+    position: relative;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+/*end number section*/
+/*start serve section*/
+.serve{
+
+    overflow: hidden;
+    margin-top:0px;
+    margin-bottom: 50px;
+    
+    }
+    
+    .serve .serve-contient{
+    float: left;
+    width: 100%;
+    margin-top: 90px;
+    }
+    .serve .container .serve-img{
+        text-align: center;
+        width: 100%;
+    }
+    .serve .container .serve-img img{   
+        width: 100%;
+        height: 100%;
+    }
+    .serve .container .serve-contient .header-serve{
+    
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color:#303030;
+    width: 100%;
+    
+    }
+    .serve .container .serve-contient .para-serve{
+    
+        line-height: 35px;
+        font-size: 1.1em;
+        color:#303030;
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    /*end serve section */
+    /*start Creativity section*/
+    .Creativity .container .creative-items{
+        float: left;
+        width: 100%;
+        overflow: hidden;
+        padding-bottom: 40px;
+        
+        }
+        /*end Creativity section*/
+        /*start  Testimonials section*/
+.Testimonials{
+   
+    height: 100vh;
+    background-image: url('../img/archi-12.jpg');
+    background-size: cover;
+    background-position: 50%;
+    overflow: hidden;
+}
+.Testimonials .over{
+      
+background-color:rgb(00, 00, 00,0.5);
+    position: relative;
+    top:0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+   height: 100%;
+}
+.Testimonials .over .sec {
+  
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 90px;
+   
+}
+.Testimonials  .over .sec .header{
+font-size: 30px;
+font-weight: 400;
+color: rgb(255, 255, 255);
+padding-bottom: 20px;
+
+
+}
+.Testimonials .over .sec .par{
+    font-size: 17px;
+    color:rgba(255, 255, 255);
+    padding-bottom: 60px;
+    }
+ .Testimonials .over .elem{
+
+overflow: hidden;
+padding-bottom: 40px;
+    }
+   
+    .Testimonials .over .elem  .element {
+
+float: left;
+width: 90%;
+margin: auto;
+margin-left: 18px;
+
+    }   
+    .Testimonials .over .elem  .element  .pargra{
+
+        background-color:rgba(255, 255, 255, 0.1);
+        line-height: 30px;
+        padding: 35px 30px;
+        border-radius: 2.4%;
+        font-size: 15px;
+        color:rgb(255, 255, 255);
+        height:130px;
+        margin-top: 20px;
+
+       
+    }
+    .Testimonials .over  .elem  .element  .te{
+        padding-top: 20px;
+        margin-left:25px;
+      
+        color:rgb(255, 255, 255);
+        font-size: 15px;
+        list-style: 10px;
+       
+    }
+  
+    .e2{
+        display: none;
+    }
+/*end Testimonials section*/
+
+/*start map section*/
+.map{
+    padding:100px 0px;
+    background-color: rgb(248, 248, 248)    ;
+    color:rgb(104, 104, 104);
+}
+
+.map .container .map-containt{
+
+
+width: 100%;
+padding-bottom: 30px;
+}
+
+.map .container .map-containt ul li{
+
+}
+.map .container .map-containt ul li .itemiicon{
+
+    
+    width:10%;
+    font-size: 18px;
+    line-height: 37px;
+   background-color: transparent;
+   
+    text-align: center;
+   border-radius: 50%;
+   
+    margin-top: 13px;
+    border-style: solid;
+    border-color:rgba(0, 0, 0, 0.15);
+
+   width: 35px;
+    height: 35px;
+    padding: 0px;
+    border-width: 1px;
+
+}
+.map .container .map-containt ul li .map-par{
+
+width:80%;
+line-height: 27px;
+
+
+margin-bottom: 22px;
+padding-top: 14px;
+
+}
+.map .container .map-containt .map-header{
+font-size: 24px;
+color:#303030;
+font-weight: 400;
+margin-top: 30px;
+margin-bottom:25px;
+}
+.map .container .map-containt .map-paragraph{
+font-size: 15px;
+color:rgb(104, 104, 104);
+line-height: 30px;
+margin-bottom: 30px;
+
+}
+
+.map .container .map-containt .map-par2{
+    font-size: 15px;
+    color:rgb(104, 104, 104);
+    padding-bottom: 0px;
+   
+    
+    }
+   
+    hr{
+        border:solid ;
+       border-width: 0.1px;
+       border-top: 0px;
+       
+       border-radius: 0%;
+        border-color: rgba(63,63,63,0.4);
+    }
+.map .container .map-img{
+text-align: center;
+    width: 100%;
+    height:500px;
+   margin-left: 0px;
+ 
+   
+
+    }
+.map .container .map-img iframe{
+width:100%;
+height: 100%;
+    }
+    .overr{
+        padding: 0;
+        margin: 0;
+    }
+/*end map section*/
+/*start last section */
+.first-part{
+    background-color: rgb(38, 38, 38);
+    padding-bottom: 40px;
+}
+.last .first-part .container{
+overflow: hidden;
+
+}
+.last .first-part .container .item{
+    padding-top: 70px;
+float: left;
+width: 100%;
+
+}
+.last .first-part .container .item h3{
+   color:white;
+   font-size: 20px;
+   font-weight: 400;
+   padding-bottom: 25px;
+}
+.item-3,.item-2{
+    margin-left: 50px;
+}
+.last .first-part .container .item .par11{
+    color:rgb(121, 121, 121);
+    font-size: 16px;
+    line-height: 30px;
+    padding-bottom: 25px;
+    
+ }
+ .last .first-part .container .item .par22{
+    color:rgb(121, 121, 121);
+    font-size: 16px;
+    line-height: 30px;
+    padding-bottom: 25px;
+    
+ }
+ .last .first-part .container .item .ul1 {
+color:rgb(121, 121, 121);
+ }
+ .last .first-part .container .item .ul12 {
+    color: rgb(169, 169, 169);
+  
+     }
+
+     .last .first-part .container .item .ul12 li {
+        overflow: hidden;
+    list-style: none;
+    line-height: 40px;
+         }
+         .last .first-part .container .item .ul12 li i{
+        
+            line-height:60px;
+            float:left;
+             width: 10%;
+                 }
+                 .last .first-part .container .item .ul12 li p{
+                    line-height:60px;
+                    float:left;
+                     width: 90%;
+                         }
+                         .last .first-part .container .item .ul12 li p span{ 
+                            line-height:30px;
+                            float:left;
+                             width: 90%;
+                             color:#636363;
+                             margin-top: 15px;
+                                 }
+                         
+    
+     .last .first-part .container .item .ul1 li{
+  
+    list-style: none;
+    line-height: 40px;
+     }
+     .last .first-part .container .item .ul1 li hr {
+        font-weight: 400;
+
+         }
+.last .second{
+padding-top: 50px;
+text-align: center;
+height: 140px;
+background-color: rgba(30, 30, 30, 0.992);
+
+}
+.last .second h4{
+font-size: 16px;
+color:rgb(119, 119, 119);
+font-weight: 400;
+}
+.last .second ul {
+    padding-top:30px;
+   overflow: hidden;
+   margin-left:27%;
+  
+}
+.last .second ul li {
+    list-style: none;
+   float: left;
+   width: 2%;
+    margin-left: 40px;
+   
+
+    
+}
+.last .second ul li .vio {
+   font-size: 20px;
+   color:rgba(65, 64, 64, 0.866);
+   width:20px;
+   height: 20px;
+border-radius: 50%;
+   
+   background-color: rgb(30, 30, 30);
+   padding: 10px ;
+   
+  
+   
+
+    
+}
+
+.last .second ul li  .fa-facebook-f:hover{
+    background-color:#4267B2 ;
+    color:rgb(255, 255, 255);
+ 
+ }
+ .last .second ul li .fa-google:hover{
+    background-color:#DB4437 ;
+    color:rgb(255, 255, 255);
+ 
+ }
+ .last .second ul li  .fa-tumblr:hover{
+    background-color:#36465d ;
+    color:rgb(255, 255, 255);
+ 
+ }
+ .last .second ul li  .fa-twitter:hover{
+    background-color:#1DA1F2 ;
+    color:rgb(255, 255, 255);
+ 
+ }
+ /*end last section*/
+}
+/******************************************************************************************/
+
+/*370-720*/
+@media (min-width: 901px) and (max-width: 1300px) {
+   
+
+  /*start last section */
+.first-part{
+    background-color: rgb(38, 38, 38);
+    padding-bottom: 40px;
+}
+.last .first-part .container{
+overflow: hidden;
+
+}
+.last .first-part .container .item{
+    padding-top: 70px;
+float: left;
+width: 100%;
+
+}
+.last .first-part .container .item h3{
+   color:white;
+   font-size: 20px;
+   font-weight: 400;
+   padding-bottom: 25px;
+}
+.item-3,.item-2{
+    margin-left: 50px;
+}
+.last .first-part .container .item .par11{
+    color:rgb(121, 121, 121);
+    font-size: 16px;
+    line-height: 30px;
+    padding-bottom: 25px;
+    
+ }
+ .last .first-part .container .item .par22{
+    color:rgb(121, 121, 121);
+    font-size: 16px;
+    line-height: 30px;
+    padding-bottom: 25px;
+    
+ }
+ .last .first-part .container .item .ul1 {
+color:rgb(121, 121, 121);
+ }
+ .last .first-part .container .item .ul12 {
+    color: rgb(169, 169, 169);
+  
+     }
+
+     .last .first-part .container .item .ul12 li {
+        overflow: hidden;
+    list-style: none;
+    line-height: 40px;
+         }
+         .last .first-part .container .item .ul12 li i{
+        
+            line-height:60px;
+            float:left;
+             width: 10%;
+                 }
+                 .last .first-part .container .item .ul12 li p{
+                    line-height:60px;
+                    float:left;
+                     width: 90%;
+                         }
+                         .last .first-part .container .item .ul12 li p span{ 
+                            line-height:30px;
+                            float:left;
+                             width: 90%;
+                             color:#636363;
+                             margin-top: 15px;
+                                 }
+                         
+    
+     .last .first-part .container .item .ul1 li{
+  
+    list-style: none;
+    line-height: 40px;
+     }
+     .last .first-part .container .item .ul1 li hr {
+        font-weight: 400;
+
+         }
+.last .second{
+padding-top: 50px;
+text-align: center;
+height: 140px;
+background-color: rgba(30, 30, 30, 0.992);
+
+}
+.last .second h4{
+font-size: 16px;
+color:rgb(119, 119, 119);
+font-weight: 400;
+}
+.last .second ul {
+    padding-top:30px;
+   overflow: hidden;
+   margin-left:37%;
+  
+}
+.last .second ul li {
+    list-style: none;
+   float: left;
+   width: 2%;
+    margin-left: 40px;
+   
+
+    
+}
+.last .second ul li .vio {
+   font-size: 20px;
+   color:rgba(65, 64, 64, 0.866);
+   width:20px;
+   height: 20px;
+border-radius: 50%;
+   
+   background-color: rgb(30, 30, 30);
+   padding: 10px ;
+   
+  
+   
+
+    
+}
+
+.last .second ul li  .fa-facebook-f:hover{
+    background-color:#4267B2 ;
+    color:rgb(255, 255, 255);
+ 
+ }
+ .last .second ul li .fa-google:hover{
+    background-color:#DB4437 ;
+    color:rgb(255, 255, 255);
+ 
+ }
+ .last .second ul li  .fa-tumblr:hover{
+    background-color:#36465d ;
+    color:rgb(255, 255, 255);
+ 
+ }
+ .last .second ul li  .fa-twitter:hover{
+    background-color:#1DA1F2 ;
+    color:rgb(255, 255, 255);
+ 
+ }
+ /*end last section*/
+}
